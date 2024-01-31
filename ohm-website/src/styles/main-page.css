@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+}
+
+.first-block{
+    background-color: black;
+    height: 100vh;
+}
+
+.second-block{
+    border-bottom: 2px solid black;
+}
+
+.third-block{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.card-and-pic{
+    display: flex;
+    justify-content: space-around;
+}
+
+.pic1{
+    height: 100%;
+    width: 50%;
+}
+
+.first-card{
+    height: 100%;
+    width: 50%;
+}

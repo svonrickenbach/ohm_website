@@ -1,20 +1,37 @@
 import React from 'react';
-import backgroundImage from '../images/ohm-background-picture-1.png'
+import party from '../images/party.jpg'
+import "../styles/main-page.css" 
 
 const MainPage = () => {
 
-
     return (
         <div>
-            <div
-                className="flex items-center justify-center min-h-screen bg-no-repeat bg-cover bg-center"
-                style={{
-                backgroundImage: `url(${backgroundImage})`,
-                }}
-            >
+            <div className="header">
+
             </div>
-            <div>
-                <h1>New Div</h1>
+            <div className="first-block">
+
+            </div>
+            <div className="second-block">
+                <h2>2024 Lineup Coming Soon...</h2>
+            </div>
+            <div className="third-block">
+                <div className="card-and-pic">
+                    <div className="first-card">
+                        <h3>Ohm on the Range is back for a third year!</h3>
+                    </div>
+                    <div className="pic-1">
+                        <img src={party} alt="The crowd at mainstage" className='pic1'/>
+                    </div>
+                </div>
+                <div className="card-and-pic">
+                    <div className="first-card">
+                        <h3>Ohm on the Range is back for a third year!</h3>
+                    </div>
+                    <div className="pic-1">
+                        <img src={party} alt="The crowd at mainstage" className='pic1'/>
+                    </div>
+                </div>
             </div>
         </div>
     );
