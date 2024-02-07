@@ -5,6 +5,13 @@
     url('../fonts/Lovelo-LineLight.woff2') format('woff2'), url('../fonts/Lovelo-LineLight.woff') format('woff');
     }
 
+        @font-face {
+            font-family: TTPhobo;
+            src: url('../fonts/TTPhobos-Stencil.ttf') format('truetype'),
+                url('../fonts/TTPhobos-Stencil.woff2') format('woff2'),
+                url('../fonts/TTPhobos-Stencil.woff') format('woff');
+        }
+
 
 
 body{
@@ -36,7 +43,11 @@ body{
 }
 
 .header{
-    font-family: tt pho;
+    font-family: TTPhobo;
+    font-size: 300%;
+    text-align: center;
+    color: #FF914D;
+    text-shadow: 0 0 10px #FF914D;
 }
 
 .pic1{
