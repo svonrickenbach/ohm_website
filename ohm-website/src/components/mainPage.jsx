@@ -18,8 +18,8 @@ const MainPage = () => {
             <div className="third-block">
                 <div className="text-and-pic">
                     <div className='text'>
-                        <h3 className="header">OHM ON THE RANGE</h3>
-                        <h3 className="header">IS BACK FOR A THIRD YEAR!</h3>
+                        <h3 className="header-text">OHM ON THE RANGE</h3>
+                        <h3 className="sub-header">IS BACK FOR A THIRD YEAR!</h3>
                         <p>Our new location in Glenwood, WA is less than 2
                             hours from Portland, OR. Join us on July 4-7th for
                             live music, art and yoga workshops, synchronicities

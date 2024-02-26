@@ -1,9 +1,16 @@
 @font-face {
-    font-family: lovelo;
+    font-family: lovelo-line;
     src: url('../fonts/Lovelo-LineLight.eot');
     src: url('../fonts/Lovelo-LineLight.eot?#iefix') format('embedded-opentype'),
     url('../fonts/Lovelo-LineLight.woff2') format('woff2'), url('../fonts/Lovelo-LineLight.woff') format('woff');
     }
+
+    @font-face {
+        font-family: lovelo-black;
+        src: url('../fonts/Lovelo-Black.eot');
+        src: url('../fonts/Lovelo-Black.eot') format('embedded-opentype'),
+        url('../fonts/Lovelo-Black.woff2') format('woff2'), url('../fonts/Lovelo-Black.woff') format('woff');
+        }
 
         @font-face {
             font-family: TTPhobo;
@@ -25,7 +32,7 @@ body{
 
 .second-block{
     border-bottom: 2px solid black;
-    font-family: lovelo;
+    font-family: lovelo-line;
 }
 
 .third-block{
@@ -42,12 +49,19 @@ body{
     background-color: white;
 }
 
-.header{
+.header-text{
     font-family: TTPhobo;
     font-size: 300%;
     text-align: center;
     color: #FF914D;
-    text-shadow: 0 0 10px #FF914D;
+    /* text-shadow: 40 40 5px #FF914D; */
+    box-shadow: -1px 0 0 1px hsla(0, 0%, 100%, 0.07),inset 0 0 0 1px hsla(0,0%,100%,.07);
+}
+
+.sub-header{
+    font-family: lovelo-black;
+    font-size: 300%;
+    text-align: center;
 }
 
 .pic1{
